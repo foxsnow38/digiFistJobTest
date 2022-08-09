@@ -1,7 +1,7 @@
-web:site
+website: https://lutfen-beni-ise-alin.netlify.app/
 
 
-
+mail:
 <div id=":o3" class="ii gt" jslog="20277; u014N:xr6bB; 4:W251bGwsbnVsbCxbXV0."><div id=":o4" class="a3s aiL msg-5914832201278064167"><div class="adM">
 
 </div><div lang="en-TR" link="#0563C1" vlink="#954F72" style="word-wrap:break-word"><div class="adM">
