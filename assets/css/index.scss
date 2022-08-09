@@ -1,0 +1,619 @@
+
+@font-face {
+    font-family: 'itc_avant_garde_gothic_proBk';
+    src: url('../fonts/avenir/webfont/itcavantgardepro-bk-webfont.woff2') format('woff2'),
+         url('../fonts/avenir/webfont/itcavantgardepro-bk-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'itc_avant_garde_gothic_proMd';
+    src: url('../fonts/avenir/itcavantgardepro-md-webfont.woff2') format('woff2'),
+         url('../fonts/avenir/itcavantgardepro-md-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+@font-face {
+    font-family: 'itc_avant_garde_gothic_proBd';
+    src: url('../fonts/avenir/webfont/itcavantgardepro-bold-webfont.woff2') format('woff2'),
+         url('../fonts/avenir/webfont/itcavantgardepro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'itc_avant_garde_gothic_prdemi';
+    src: url('../fonts/avenir/webfont/itcavantgardepro-demi-webfont.woff2') format('woff2'),
+         url('../fonts/avenir/webfont/itcavantgardepro-demi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'itc_avant_garde_gothic_proMd';
+    src: url('../fonts/avenir/webfont/itcavantgardepro-md-webfont.woff2') format('woff2'),
+         url('../fonts/avenir/webfont/itcavantgardepro-md-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'avenirbook';
+    src: url('avenir-webfont.woff2') format('woff2'),
+         url('avenir-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+html{
+    font-size: 10px;
+}
+
+.content{
+width: 100%;
+max-width: 1440px;
+max-height: 868px;
+// background:red;
+display: flex;
+position: relative;
+.leftphoto{
+    width: 100%;
+max-width: 50vw;
+max-height: 868px;
+display: inline;
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+}
+.right{
+    box-sizing: border-box;
+    
+    width: 50%;
+    // background: aqua;
+    
+    padding-left: 8.5%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-right:8.5% ;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+.test{
+    display: none;
+margin-top:337px;
+width: 100%;
+height:20px;
+background: green;
+position: absolute;
+right: 0;
+top: 0;
+
+}
+.header{
+    
+.title{
+
+
+    /* Everyday items, we have something to suit every occasion. */
+
+ padding-bottom: 12px;
+/* Heading/4 */
+width: 85%;
+font-family: 'itc_avant_garde_gothic_proBd';
+font-style: normal;
+font-weight: 700;
+font-size: 3.125rem;
+line-height: 130%;
+/* or 41px */
+
+display: flex;
+align-items: flex-end;
+
+/* Typography/Primary */
+
+color: #000000;
+
+font-size: 3rem;
+
+}
+.desc{
+
+    font-family: 'avenirbook';
+font-style: normal;
+font-weight: 400;
+font-size: 1.6rem;
+line-height: 160%;
+padding-bottom: 32px;
+width: 70%;
+color: #666666;
+
+    font-size: 1.6rem;
+}
+.shopBtn{
+
+    
+/* Button/Text Link Mobile */
+
+display: inline-block;
+
+
+
+h1{
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+font-family: 'avenirbook';
+font-style: normal;
+font-weight: 900;
+font-size: calc(1.2rem + 0.08rem);
+line-height: 17px;
+background: none;
+border: none;
+}
+.btnhr{
+    margin-top: 5px;
+    width: 100%;
+    border-bottom: 1px solid #000000;
+}
+
+
+}
+}
+
+.productSliderRelative{
+
+    max-width: 1000px;
+    width: 1000px;
+      height: 400px;
+    position: relative;
+    margin: auto; 
+
+  }
+  
+  
+  .BackBtn{
+      position: absolute;
+      top: 50%;
+      left: 0%;
+      z-index: 1;
+  
+  
+      height: 2rem;
+      width:  2rem;
+      background: none;
+      border: none;
+      transform: rotate(180deg);
+  
+      border-right: 1px solid rgba(0,0,0,0.1   );
+      border-top: 1px solid rgba(0,0,0,0.1   );
+      border-bottom: 1px solid rgba(0,0,0,0.1   );
+  
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      
+      
+      div 
+      {
+          margin-right: 50%;
+      margin-top: auto;
+        
+          svg{
+       
+              width: 1.6rem;
+              height: 1.6rem;
+          }
+      }
+      
+      }
+      
+      .fowardBtn{
+      
+          position: absolute;
+          top: 50%;
+          left: 39vw;
+          z-index: 1;
+      
+      
+          height: 2rem;
+          width:  2rem;
+          background: none;
+          border: none;
+      
+      
+          border-right: 1px solid rgba(0,0,0,0.1   );
+          border-top: 1px solid rgba(0,0,0,0.1   );
+          border-bottom: 1px solid rgba(0,0,0,0.1   );
+      
+          display: flex;
+          align-content: center;
+          justify-content: center;
+          
+          
+          div 
+          {
+              margin-right: 50%;
+          margin-top: auto;
+            
+              svg{
+           
+                  width: 1.6rem;
+                  height: 1.6rem;
+              }
+          }
+      
+      }
+  .sliderWrap{
+  position: absolute;
+  top: 7.6rem;
+  width: 62%;
+  height: 36.5rem;
+  
+
+  // padding-top: 68px;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar{
+  display: none;
+  }
+  
+  
+    
+  
+  
+  
+      .slider{
+          position: absolute;
+       left: 0;
+       right: 0;
+          height: 100%;
+          width: 100%;
+  
+       
+      .sliderInner{
+          position: absolute;
+          left: 0;
+          top: 0;
+  
+          height: 100%;
+          display: flex;
+          // justify-content: space-around;
+        
+  
+   
+          .card{
+              // position: relative;
+              // display: flex;
+              // align-items: center;
+              // justify-content: center;
+              // width: 250px;
+              // height: 98%;
+              // top: 1%;
+              // border: 1px solid #000 ;
+              // background: #ccc;
+              // margin: 0 20px;  
+          }
+          .card{
+      
+               width: 23rem;
+               height: 36rem;
+         
+              margin-right: 3.2rem;
+          .cardImg{
+          width:100%;
+          height: 31rem;
+          // height: 31rem;
+           img{
+            cursor: pointer;
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+              }
+          }
+          }
+          .productTitle{
+            margin-top: 12px;
+          
+              font-family: 'avenirbook';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 1.28rem;
+          line-height: 160%;
+          padding-bottom: 4px;
+          }
+          .productDetail{
+              display: flex;
+              flex-direction: row;
+              justify-items: center;
+          
+          .productPrice{
+          font-family: 'avenirbook';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12.8px;
+          line-height: 160%;
+          /* or 20px */
+          display: flex;
+          align-items: center;
+          text-align: center;
+          flex: 1;
+        
+          }
+          .productColor{
+              width: 7.2rem;
+              height: 1.2rem;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              transition: all 1000ms ; 
+            margin-right: 10px;
+           
+              .color1{ 
+                  width: 1.2rem;
+              height: 1.2rem;
+              border-radius: 50%;
+              margin-left: 8px;
+                      div{
+                          width: 1.2rem;
+                          height: 1.2rem;      
+                          margin: auto; 
+                          border-radius: 50%;
+                          background: #99c4cb;
+                  }
+                  &:hover{
+                      transform-origin: top left;
+                      transform: translateY(10%);
+                      div{
+                          transition-property: box-shadow;
+                          transition-duration: 1500ms; 
+                          width: 0.8rem;
+                          height: 0.8rem;
+                          box-shadow: 
+                          0 0 0 1.5px #FFFFFF,
+                          0 0 0 2.5px #000;
+                      }
+                  }
+                  }
+              .color2{ 
+                      width: 1.2rem;
+                  height: 1.2rem;
+                  border-radius: 50%;
+                  margin-left: 8px;
+                          div{
+                              width: 1.2rem;
+                              height: 1.2rem;      
+                              margin: auto; 
+                              border-radius: 50%;
+                              background: #CC9999;
+          ;
+                      }
+                      &:hover{
+                          transform-origin: top left;
+                          transform: translateY(10%);
+                          div{
+                              transition-property: box-shadow;
+                              transition-duration: 1500ms; 
+                              width: 0.8rem;
+                              height: 0.8rem;
+                              box-shadow: 
+                              0 0 0 1.5px #FFFFFF,
+                              0 0 0 2.5px #000;
+                          }
+                      }
+                      }
+               .color3{ 
+                          width: 1.2rem;
+                      height: 1.2rem;
+                      border-radius: 50%;
+                      margin-left: 8px;
+                              div{
+                                  width: 1.2rem;
+                                  height: 1.2rem;      
+                                  margin: auto; 
+                                  border-radius: 50%;                
+          background: #CB99CC;
+                          }
+                          &:hover{
+                              transform-origin: top left;
+                              transform: translateY(10%);
+                              div{
+                                  transition-property: box-shadow;
+                                  transition-duration: 1500ms; 
+                                  width: 0.8rem;
+                                  height: 0.8rem;
+                                  box-shadow: 
+                                  0 0 0 1.5px #FFFFFF,
+                                  0 0 0 2.5px #000;
+                              }
+                          }
+                          }
+               .color4{ 
+                              width: 1.2rem;
+                          height: 1.2rem;
+                          border-radius: 50%;
+                          margin-left: 8px;
+                                  div{
+                                      width: 1.2rem;
+                                      height: 1.2rem;      
+                                      margin: auto; 
+                                      border-radius: 50%;
+                                      background: #A6CC99;
+                              }
+                              &:hover{
+                                  transform-origin: top left;
+                                  transform: translateY(10%);
+                                  div{
+                                      transition-property: box-shadow;
+                                      transition-duration: 1500ms; 
+                                      width: 0.8rem;
+                                      height: 0.8rem;
+                                      box-shadow: 
+                                      0 0 0 1.5px #FFFFFF,
+                                      0 0 0 2.5px #000;
+                                  }
+                              }
+                              }
+              
+          
+          
+          
+          }
+          }
+  
+  
+          }
+      }
+  
+    
+  }
+  
+  
+  .progress{
+    display: none;
+      position: absolute;
+      bottom: -20px;
+      left: 0;
+      width: 100%;
+      height: 5px;
+      border: 3px solid #000;
+      border-radius: 10px;
+  
+      .progressInner{
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 10%;
+          height: 100%;
+          background: #000;
+  
+  
+      }
+      
+          }
+
+}
+}
+
+// @media screen and (min-width: 1070px) and (max-width: 1280px) {
+//     .fowardBtn{
+//         left: 3 !important;
+//     }
+
+
+// }
+@media screen and (min-width: 1440px)
+{
+.fowardBtn{
+    left: 55% !important;
+}
+}
+@media screen and (min-width: 786px) and (max-width: 1070px) {
+    .productSliderRelative{
+        width: 800px !important;;
+    } 
+    // .fowardBtn{
+    //     left: 50% !important;
+    // }
+
+   
+}
+
+
+@media screen and (max-width: 786px) and (min-width: 486px) {
+    .fowardBtn{
+        left: 35vw !important;
+    }
+
+    
+}
+
+
+
+@media screen and (max-width: 486px) {
+html{
+    font-size: 7px !important;
+}
+    .content{
+
+        flex-direction: column;
+  
+    }
+    .right{
+        width: 100% !important;
+        margin-top: 30vh;
+    }
+    .title{
+        color: white !important;
+        -webkit-text-stroke-width: 0.3px;
+        -webkit-text-stroke-color: black;
+    }
+    .desc{display: none !important;}
+    .shopBtn{
+      
+            h1{
+                
+      
+              color: white !important;
+       font-family: "itc_avant_garde_gothic_proBd" ;
+      
+            }
+           
+       
+        .btnhr{ border:1px solid #fff !important;}
+}
+    .leftPhotoRelative{
+        position: relative;
+        width: 100%;
+    }
+
+    .leftphoto{
+        position: absolute;
+        top: 0px;
+        left: 0;      
+        width: 100% !important;
+        // height: 437px !important;
+        max-width: none !important;
+        max-height: none !important;
+    img{    
+           height: -10vh !important; 
+        }
+    }
+
+    .sliderWrap{
+
+        height: 100% !important;
+
+    }
+    .fowardBtn{
+        left: 47% !important;
+    }
+  
+    .productSliderRelative{
+        width: 600px !important;;
+    } 
+
+}

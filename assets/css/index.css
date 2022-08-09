@@ -1,0 +1,443 @@
+@font-face {
+  font-family: "itc_avant_garde_gothic_proBk";
+  src: url("../fonts/avenir/webfont/itcavantgardepro-bk-webfont.woff2") format("woff2"), url("../fonts/avenir/webfont/itcavantgardepro-bk-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "itc_avant_garde_gothic_proMd";
+  src: url("../fonts/avenir/itcavantgardepro-md-webfont.woff2") format("woff2"), url("../fonts/avenir/itcavantgardepro-md-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "itc_avant_garde_gothic_proBd";
+  src: url("../fonts/avenir/webfont/itcavantgardepro-bold-webfont.woff2") format("woff2"), url("../fonts/avenir/webfont/itcavantgardepro-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "itc_avant_garde_gothic_prdemi";
+  src: url("../fonts/avenir/webfont/itcavantgardepro-demi-webfont.woff2") format("woff2"), url("../fonts/avenir/webfont/itcavantgardepro-demi-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "itc_avant_garde_gothic_proMd";
+  src: url("../fonts/avenir/webfont/itcavantgardepro-md-webfont.woff2") format("woff2"), url("../fonts/avenir/webfont/itcavantgardepro-md-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "avenirbook";
+  src: url("avenir-webfont.woff2") format("woff2"), url("avenir-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  font-size: 10px;
+}
+
+.content {
+  width: 100%;
+  max-width: 1440px;
+  max-height: 868px;
+  display: flex;
+  position: relative;
+}
+.content .leftphoto {
+  width: 100%;
+  max-width: 50vw;
+  max-height: 868px;
+  display: inline;
+}
+.content .leftphoto img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.content .right {
+  box-sizing: border-box;
+  width: 50%;
+  padding-left: 8.5%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  padding-right: 8.5%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.content .right .test {
+  display: none;
+  margin-top: 337px;
+  width: 100%;
+  height: 20px;
+  background: green;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.content .right .header .title {
+  /* Everyday items, we have something to suit every occasion. */
+  padding-bottom: 12px;
+  /* Heading/4 */
+  width: 85%;
+  font-family: "itc_avant_garde_gothic_proBd";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.125rem;
+  line-height: 130%;
+  /* or 41px */
+  display: flex;
+  align-items: flex-end;
+  /* Typography/Primary */
+  color: #000000;
+  font-size: 3rem;
+}
+.content .right .header .desc {
+  font-family: "avenirbook";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 160%;
+  padding-bottom: 32px;
+  width: 70%;
+  color: #666666;
+  font-size: 1.6rem;
+}
+.content .right .header .shopBtn {
+  /* Button/Text Link Mobile */
+  display: inline-block;
+}
+.content .right .header .shopBtn h1 {
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  font-family: "avenirbook";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.28rem;
+  line-height: 17px;
+  background: none;
+  border: none;
+}
+.content .right .header .shopBtn .btnhr {
+  margin-top: 5px;
+  width: 100%;
+  border-bottom: 1px solid #000000;
+}
+.content .right .productSliderRelative {
+  max-width: 1000px;
+  width: 1000px;
+  height: 400px;
+  position: relative;
+  margin: auto;
+}
+.content .right .BackBtn {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  z-index: 1;
+  height: 2rem;
+  width: 2rem;
+  background: none;
+  border: none;
+  transform: rotate(180deg);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.content .right .BackBtn div {
+  margin-right: 50%;
+  margin-top: auto;
+}
+.content .right .BackBtn div svg {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.content .right .fowardBtn {
+  position: absolute;
+  top: 50%;
+  left: 39vw;
+  z-index: 1;
+  height: 2rem;
+  width: 2rem;
+  background: none;
+  border: none;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.content .right .fowardBtn div {
+  margin-right: 50%;
+  margin-top: auto;
+}
+.content .right .fowardBtn div svg {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.content .right .sliderWrap {
+  position: absolute;
+  top: 7.6rem;
+  width: 62%;
+  height: 36.5rem;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.content .right .sliderWrap::-webkit-scrollbar {
+  display: none;
+}
+.content .right .sliderWrap .slider {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+.content .right .sliderWrap .slider .sliderInner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  display: flex;
+}
+.content .right .sliderWrap .slider .sliderInner .card {
+  width: 23rem;
+  height: 36rem;
+  margin-right: 3.2rem;
+}
+.content .right .sliderWrap .slider .sliderInner .card .cardImg {
+  width: 100%;
+  height: 31rem;
+}
+.content .right .sliderWrap .slider .sliderInner .card .cardImg img {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.content .right .sliderWrap .slider .sliderInner .productTitle {
+  margin-top: 12px;
+  font-family: "avenirbook";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.28rem;
+  line-height: 160%;
+  padding-bottom: 4px;
+}
+.content .right .sliderWrap .slider .sliderInner .productDetail {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+}
+.content .right .sliderWrap .slider .sliderInner .productDetail .productPrice {
+  font-family: "avenirbook";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.8px;
+  line-height: 160%;
+  /* or 20px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+}
+.content .right .sliderWrap .slider .sliderInner .productDetail .productColor {
+  width: 7.2rem;
+  height: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1000ms;
+  margin-right: 10px;
+}
+.content .right .sliderWrap .slider .sliderInner .productDetail .productColor .color1 {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  margin-left: 8px;
+}
+.content .right .sliderWrap .slider .sliderInner .productDetail .productColor .color1 div {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin: auto;
+  border-radius: 50%;
+  background: #99c4cb;
+}
+.content .right .sliderWrap .slider .sliderInner .productDetail .productColor .color1:hover {
+  transform-origin: top left;
+  transform: translateY(10%);
+}
+.content .right .sliderWrap .slider .sliderInner .productDetail .productColor .color1:hover div {
+  transition-property: box-shadow;
+  transition-duration: 1500ms;
+  width: 0.8rem;
+  height: 0.8rem;
+  box-shadow: 0 0 0 1.5px #FFFFFF, 0 0 0 2.5px #000;
+}
+.content .right .sliderWrap .slider .sliderInner .productDetail .productColor .color2 {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  margin-left: 8px;
+}
+.content .right .sliderWrap .slider .sliderInner .productDetail .productColor .color2 div {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin: auto;
+  border-radius: 50%;
+  background: #CC9999;
+}
+.content .right .sliderWrap .slider .sliderInner .productDetail .productColor .color2:hover {
+  transform-origin: top left;
+  transform: translateY(10%);
+}
+.content .right .sliderWrap .slider .sliderInner .productDetail .productColor .color2:hover div {
+  transition-property: box-shadow;
+  transition-duration: 1500ms;
+  width: 0.8rem;
+  height: 0.8rem;
+  box-shadow: 0 0 0 1.5px #FFFFFF, 0 0 0 2.5px #000;
+}
+.content .right .sliderWrap .slider .sliderInner .productDetail .productColor .color3 {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  margin-left: 8px;
+}
+.content .right .sliderWrap .slider .sliderInner .productDetail .productColor .color3 div {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin: auto;
+  border-radius: 50%;
+  background: #CB99CC;
+}
+.content .right .sliderWrap .slider .sliderInner .productDetail .productColor .color3:hover {
+  transform-origin: top left;
+  transform: translateY(10%);
+}
+.content .right .sliderWrap .slider .sliderInner .productDetail .productColor .color3:hover div {
+  transition-property: box-shadow;
+  transition-duration: 1500ms;
+  width: 0.8rem;
+  height: 0.8rem;
+  box-shadow: 0 0 0 1.5px #FFFFFF, 0 0 0 2.5px #000;
+}
+.content .right .sliderWrap .slider .sliderInner .productDetail .productColor .color4 {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  margin-left: 8px;
+}
+.content .right .sliderWrap .slider .sliderInner .productDetail .productColor .color4 div {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin: auto;
+  border-radius: 50%;
+  background: #A6CC99;
+}
+.content .right .sliderWrap .slider .sliderInner .productDetail .productColor .color4:hover {
+  transform-origin: top left;
+  transform: translateY(10%);
+}
+.content .right .sliderWrap .slider .sliderInner .productDetail .productColor .color4:hover div {
+  transition-property: box-shadow;
+  transition-duration: 1500ms;
+  width: 0.8rem;
+  height: 0.8rem;
+  box-shadow: 0 0 0 1.5px #FFFFFF, 0 0 0 2.5px #000;
+}
+.content .right .progress {
+  display: none;
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  border: 3px solid #000;
+  border-radius: 10px;
+}
+.content .right .progress .progressInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: 100%;
+  background: #000;
+}
+
+@media screen and (min-width: 1440px) {
+  .fowardBtn {
+    left: 55% !important;
+  }
+}
+@media screen and (min-width: 786px) and (max-width: 1070px) {
+  .productSliderRelative {
+    width: 800px !important;
+  }
+}
+@media screen and (max-width: 786px) and (min-width: 486px) {
+  .fowardBtn {
+    left: 35vw !important;
+  }
+}
+@media screen and (max-width: 486px) {
+  html {
+    font-size: 7px !important;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .right {
+    width: 100% !important;
+    margin-top: 30vh;
+  }
+  .title {
+    color: white !important;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: black;
+  }
+  .desc {
+    display: none !important;
+  }
+  .shopBtn h1 {
+    color: white !important;
+    font-family: "itc_avant_garde_gothic_proBd";
+  }
+  .shopBtn .btnhr {
+    border: 1px solid #fff !important;
+  }
+  .leftPhotoRelative {
+    position: relative;
+    width: 100%;
+  }
+  .leftphoto {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100% !important;
+    max-width: none !important;
+    max-height: none !important;
+  }
+  .leftphoto img {
+    height: -10vh !important;
+  }
+  .sliderWrap {
+    height: 100% !important;
+  }
+  .fowardBtn {
+    left: 47% !important;
+  }
+  .productSliderRelative {
+    width: 600px !important;
+  }
+}/*# sourceMappingURL=index.css.map */
