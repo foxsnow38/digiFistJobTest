@@ -1,4 +1,4 @@
-website: https://lutfen-beni-ise-alin.netlify.app/
+website: https://digifistjobtest.netlify.app
 
 
 mail:
